@@ -1,0 +1,58 @@
+# 1. In the below elements which of them are values or an expression? eg:- values can be
+# integer or string and expressions will be mathematical operators.
+# *
+# 'hello';
+# -87.8
+# -
+# /
+# +
+# 6
+
+VALUES : 'hello', '-87.8', 6
+EXPRESSION : -, /, +
+
+
+# 2. What is the difference between string and variable?
+ANS: A variable is something in which we can store values like a = 10, b = 'akash'. Here a & b are variables which have values 10 and 'akash' respectively.
+     Taking about string it is a datatype of variable for ex b is a variable whose datatype is string.
+
+# 3. Describe three different data types.
+ANS. String : A string datatype can have characters, special characters, numbers or a combination of all in it. For creating string vaiable we use ''. For ex: 'akash', 'ak@gail', '12ab', '154'
+     INT : An int datatype can only have numbers. For ex : 12, 4567456, 1
+     Float : A float datatype can have decimals values. For ex : 12.24, 34.90
+Note : To find datatype of any variable in python we use 'type()' function
+
+
+# 4. What is an expression made up of? What do all expressions do?
+ANS. Expression is made up of operators (+, -, *, etc) and operands (a=5, 4, etc).
+    All expressions represents a value.
+
+# 5. This assignment statements, like spam = 10. What is the difference between an
+# expression and a statement?
+ANS. Statement doesnot return anything while expression return a single value.
+
+# 6. After running the following code, what does the variable bacon contain?
+# bacon = 22
+# bacon + 1
+ANS. 23
+
+# 7. What should the values of the following two terms be?
+# 'spam' + 'spamspam';
+# 'spam' * 3
+#
+ANS. spamspamspam
+     spamspamspam
+
+
+# 8. Why is eggs a valid variable name while 100 is invalid?
+ANS. Because in python variable name cannot be start with a number
+
+# 9. What three functions can be used to get the integer, floating-point number, or string
+# version of a value?
+ANS. int(), float(), str()
+
+
+# 10. Why does this expression cause an error? How can you fix it?
+# 'I have eaten' + 99 + 'burrito'
+ANS. Because we cannot add string datatype to int datatype.
+     CorrectStatement: 'I have eaten' + '99' + 'brrito'
