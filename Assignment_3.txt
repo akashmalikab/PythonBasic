@@ -1,0 +1,54 @@
+1. Why are functions advantageous to have in your programs?
+ANS. We don't need to write the code again and again we can simply call the function.
+
+2. When does the code in a function run: when it's specified or when it's called?
+ANS. When it is called
+
+3. What statement creates a function?
+ANS. def
+    def function_name():
+        pass
+
+4. What is the difference between a function and a function call?
+ANS. A function is a collection of code which doesnot perform any task but when we call a function it performs the task according to the code inside it.
+       Ex: def function_name():
+            return 2 + 2
+
+            Calling of function : function_name()
+
+
+5. How many global scopes are there in a Python program? How many local scopes?
+ANS. One local and one global scope
+
+6. What happens to variables in a local scope when the function call returns?
+ANS. Variable retains its value.
+
+7. What is the concept of a return value? Is it possible to have a return value in an expression?
+ANS. It is used to end the execution of the function call and “returns” the result.
+        Ex : def function_name():
+                return 2 + 2
+
+8. If a function does not have a return statement, what is the return value of a call to that function?
+ANS. Yes we can use *pass* if we don't want to use return statement. It simply gives *None*
+
+9. How do you make a function variable refer to the global variable?
+ANS. With the help of global keyword.
+        Ex : def func():
+                  global x
+                  x = "iNeuron"
+
+10. What is the data type of None?
+ANS. NoneType
+
+11. What does the sentence import areallyourpetsnamederic do?
+ANS. imports a module named "areallyourpetsnamederic"
+
+12. If you had a bacon() feature in a spam module, what would you call it after importing spam?
+ANS. spam.bacon()
+
+13. What can you do to save a programme from crashing if it encounters an error?
+ANS. I can use "try and except".
+
+14. What is the purpose of the try clause? What is the purpose of the except clause?
+ANS. If we are not sure that our code can through an error we can write that code in "try" block and can avoid crashing of program.
+    Except block will handle the error which we encounter in try block.
